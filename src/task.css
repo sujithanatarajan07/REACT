@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+button {
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+input {
+    font-size: 18px;
+    padding: 5px;
+}
+
+li {
+    margin: 15px 0;
+    font-size: 22px;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}

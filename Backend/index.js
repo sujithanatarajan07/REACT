@@ -1,0 +1,9 @@
+const express= require('express')
+const cors =require('cors')
+require('dotenv').config()
+const PORT=process.env.PORT
+const app =express()
+app.listen(PORT)
+app.get('/',(req,res)=>{
+    res.send("App is working ")
+})

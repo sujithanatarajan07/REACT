@@ -1,0 +1,39 @@
+input {
+    width: 50%;
+    margin: 2%;
+    border: none;
+    border-radius: 30px;
+    background-color: black;
+    outline: none;
+}
+
+form {
+    width: 50%;
+    padding: 3px;
+    margin-left: 10px;
+    background-color: pink;
+    border-radius: 10px;
+}
+
+button {
+    background-color: darkorange;
+    border-radius: 30px;
+    margin: 7%;
+    border: none;
+    color:purple;
+    font-size: 10px;
+    padding: 5px;
+    width: 50%;
+    height: 20px;
+    cursor: pointer;
+}
+
+label {
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: -30%;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    font-weight: 500;
+}

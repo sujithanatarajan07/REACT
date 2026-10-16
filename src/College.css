@@ -1,0 +1,132 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    /* COLLEGE BACKGROUND IMAGE LINE */
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.30),
+                        rgba(0, 0, 0, 0.40)),
+        url("src/assets/clg.jpg.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    color: white;
+    padding: 18px;
+    text-shadow: 2px 2px 5px black;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 8%;
+    min-height: 70vh;
+}
+
+form {
+    width: 100%;
+    max-width: 360px;
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    text-align: center;
+    font-size: 17px;
+    color: #19365b;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background: white;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: 2px solid #91b51a;
+    border-color: #91b51a;
+}
+
+button {
+    width: 100%;
+    margin-top: 18px;
+    padding: 11px;
+    border: none;
+    border-radius: 25px;
+    background: #80a313;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #66840b;
+}
+
+#message {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    text-shadow: 1px 1px 4px black;
+}
+
+@media (max-width: 600px) {
+    .container {
+        justify-content: center;
+        padding: 15px;
+    }
+
+    form {
+        max-width: 100%;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+}

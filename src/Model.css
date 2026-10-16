@@ -1,0 +1,28 @@
+.model {
+    display: relative;
+    width: 100px;
+    font-size: 20px;
+   font-style: inherit;
+    font-family: Impact;
+    border:1px solid skyblue;
+    border-radius:10px;
+    padding:100px;
+    padding-top:100px;
+    text-align: center;
+    background-color: rgb(162, 48, 86);
+    position: absolute;
+    background-image: url(bg.jpg.png);
+}
+.WelcomeButton {
+    border:none;
+    background-color:black;
+}
+.overlay {
+    
+    background-color: aquamarine;
+}
+.popup{
+    background-color: azure;
+
+   
+}
